@@ -52,6 +52,7 @@
     <Compile Include="QuadTree_FluentApiAgents.cs" />
     <Compile Include="QuadTree_NearestSearch.cs" />
     <Compile Include="Rectangle.cs" />
+    <Compile Include="Timer.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

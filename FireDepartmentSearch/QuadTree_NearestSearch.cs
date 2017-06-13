@@ -13,7 +13,7 @@ namespace FireDepartmentSearch
             private readonly Point2D _targetPoint;
 
             // The values are a Points and the keys are distances^2 from each Point to _targetPoint
-            private SortedList<double, Point> _candidates = new SortedList<double, Point>(new NeverEqualDoubleComparer());
+            private readonly SortedList<double, Point> _candidates = new SortedList<double, Point>(new NeverEqualDoubleComparer());
             private readonly HashSet<Point> _checkedPts = new HashSet<Point>();
 
             public IEnumerable<Point> Result => _candidates.Values;
